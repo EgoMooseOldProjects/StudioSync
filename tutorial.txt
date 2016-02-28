@@ -1,0 +1,31 @@
+Disclaimer: I'm not responsible for you ruining your game by syncing stuff wrong.
+
+Setup!
+
+1. put sync plugin in roblox plugins folder
+2. create a folder anywhere on ur computer
+3. put files from directory folder into this new folder
+4. open node.js cmd prompt and cd to new folder
+5. run:
+	npm install connect
+	npm install serve-static
+
+Run!
+
+1. open node.js cmd promt and cd to folder you created earlier
+2. run:
+	node server.js
+3. open a place in studio and enable http service
+4. run the sync plugin
+
+Editting scripts!
+
+1. create a lua file in your new folder
+2. in studio at the top of a script write:
+	-- $sync-FILENAME.lua
+3. when you save the file it will update in studio
+
+
+NOTE: careful not to sync scripts that have a lot of code in them to an empty file or 
+else you will lose ur work! If you want to update a script that's not sync'd yet copy 
+the code to the new file, then sync.
