@@ -1,5 +1,3 @@
--- Bow down to your lord and saviour, the king of cucking Troll, Ego!
-
 local plugin = PluginManager():CreatePlugin();
 local toolbar = plugin:CreateToolbar("EgoMoose's plugins");
 local button = toolbar:CreateButton("sync", "Syncs with outside files", "");
